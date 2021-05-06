@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="백신 종류별 특성"-->
+<!--        android:id="@+id/b1"-->
+<!--        android:onClick="onClick"/>-->
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="백신 종류별 특성"
+        android:textColor="@color/black"
+        android:background="#FFEB3B"
+        android:id="@+id/textView1"
+        android:onClick="onClick"/>
+    <!--버튼배열보다 textview를 나열하는게 더 나을것같음-->
+
+</LinearLayout>
